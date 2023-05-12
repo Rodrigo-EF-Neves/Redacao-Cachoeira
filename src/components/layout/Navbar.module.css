@@ -3,6 +3,7 @@
     background-color: #2B7D34;
     justify-content: space-between;
     padding: 1em;
+    min-height: fit-content;
 }
 
 .menu {
@@ -13,7 +14,7 @@
 .menu svg {
     color: #FFF;
     width: 2.5em;
-    height: 2.8em;
+    height: 2.5em;
 }
 
 .menu svg:hover {
@@ -23,6 +24,27 @@
 .menu p span {
     color: #FFF;
     justify-content: flex-end;
-    font-size: 2em;
-    margin-left: 0.4em;
+    font-size: 1.8em;
+    margin-left: 0.3em;
+    font-weight: lighter;
+}
+
+.main_title h1{
+    justify-content: center;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 1.8em;
+    flex-direction: column;
+}
+
+.logo img{
+    filter: invert(99%);
+    height: 5em;
+    width: 5em;
+    justify-content: center;
+    transition: .5s;
+}
+
+.logo img:hover {
+    cursor: pointer;
 }
