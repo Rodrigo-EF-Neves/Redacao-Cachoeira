@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    background-color: #2B7D34;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+}
+
+.menu svg {
+    color: #FFF;
+    width: 2.5em;
+    height: 2.8em;
+}
+
+.menu svg:hover {
+    cursor: pointer;
+}
+
+.menu p span {
+    color: #FFF;
+    justify-content: flex-end;
+    font-size: 2em;
+    margin-left: 0.4em;
+}
