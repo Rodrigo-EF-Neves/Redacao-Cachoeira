@@ -1,22 +1,15 @@
 import styles from './Home.module.css'
-import FestivalDeDanca from '../../imgs/festival_de_dança_news.jpg'
+
 import Libertadores from '../../imgs/libertadores_news.jpg'
 
+import Carousel from '../layout/Carousel'
+import { CarouselData } from '../layout/CarouselData'
+
 function Home(){
-    
     return (
         <div className={styles.home_container}>
             <section>
-                <div className={styles.main_news}>
-                    <img src={FestivalDeDanca} alt="Festival de Dança de Joinville"/>
-                    {/* TO DO Carrossel que passa imagens*/}
-                    <div className={styles.main_news_title}>
-                        40° Festival de Dança de Joinville
-                    </div>
-                    <div className={styles.main_news_description}>
-                        Atrações, apresentações e datas
-                    </div>
-                </div>
+                <Carousel imagens={CarouselData}/>
             </section>
             <hr className={styles.horizontal_line}/>
             <section className={styles.home_news_container}>
