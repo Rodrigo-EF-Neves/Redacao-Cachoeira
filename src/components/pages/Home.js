@@ -5,10 +5,11 @@ import Libertadores from '../../imgs/libertadores_news.jpg'
 function Home(){
     
     return (
-        <div>
-            <section className={styles.home_container}>
+        <div className={styles.home_container}>
+            <section>
                 <div className={styles.main_news}>
                     <img src={FestivalDeDanca} alt="Festival de Dança de Joinville"/>
+                    {/* TO DO Carrossel que passa imagens*/}
                     <div className={styles.main_news_title}>
                         40° Festival de Dança de Joinville
                     </div>
