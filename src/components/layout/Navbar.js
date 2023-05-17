@@ -1,6 +1,8 @@
 import Menu from "./Menu";
+import Container from "./Container";
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineCloseCircle } from "react-icons/ai";
 
 import styles from './Navbar.module.css'
@@ -38,11 +40,15 @@ function Navbar(){
             <div className={styles.main_title}>
                 <h1>Redação Cachoeira</h1>
             </div>
-            <div className={styles.logo}>
-                <span>
-                    <img src={Logo} alt="Jacaré Fritz"/>
-                </span>
-            </div>
+            <Container>
+                <div className={styles.logo}>
+                    <span>
+                        <Link to="/">
+                            <img src={Logo} alt="Jacaré Fritz"/>
+                        </Link>
+                    </span>
+                </div>
+            </Container>
         </nav>
     )
 }
