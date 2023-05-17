@@ -9,6 +9,7 @@
 .menu {
     align-items: center;
     display: flex;
+    user-select: none;
 }
 
 .menu svg {

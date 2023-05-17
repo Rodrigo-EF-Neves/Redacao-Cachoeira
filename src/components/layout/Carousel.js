@@ -15,12 +15,10 @@ function Carousel ({ imagens }) {
 
     const prevImage = () => {
         setCurrent(current === 0 ? length - 1 : current - 1);
-        console.log(current);
     }
 
     const nextImage = () => {
         setCurrent(current === length - 1 ? 0 : current + 1);
-        console.log(current);
     }
 
     return (

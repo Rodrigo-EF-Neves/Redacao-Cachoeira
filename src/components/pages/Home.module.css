@@ -2,8 +2,6 @@
     width: 100%;
 }
 
-/*Outras notícias*/
-
 .horizontal_line {
     margin: 1em .4em;
     display: flex;
@@ -28,6 +26,7 @@
 .home_news_img img{
     width: 60%;
     height: fit-content;
+    border-radius: 3px;
     transform: scaleX(1.2);
     transition: all 0.3s ease-in-out;
 }

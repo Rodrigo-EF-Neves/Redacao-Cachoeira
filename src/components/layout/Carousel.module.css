@@ -7,7 +7,7 @@
 }
 
 .main_news_image {
-    width: 900px;
+    width: 1105px;
     height: 600px;
     border-radius: 3px;
     transition: 0.2s ease-in-out;
@@ -16,6 +16,7 @@
 .main_news_image:hover {
     cursor: pointer;
     filter: grayscale(50%);
+    transform: scaleX(0.99);
 }
 
 .right_arrow {
@@ -23,7 +24,7 @@
     top: 50%;
     right: 32px;
     font-size: 3rem;
-    color: #000;
+    color: #777;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -34,7 +35,7 @@
     top: 50%;
     left: 32px;
     font-size: 3rem;
-    color: #000;
+    color: #777;
     z-index: 10;
     cursor: pointer;
     user-select: none;
