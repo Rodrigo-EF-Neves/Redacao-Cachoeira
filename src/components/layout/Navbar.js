@@ -22,7 +22,7 @@ function Navbar(){
         <nav className={styles.navbar}>
                 {showMenu === false && (
                     <div className={styles.menu}> 
-                        <AiOutlineMenu onClick={handleIconClick} />
+                        <AiOutlineMenu className={styles.menu_icon} onClick={handleIconClick} />
                         <p>
                             <span>Menu</span>
                         </p>
@@ -30,7 +30,7 @@ function Navbar(){
                 )}
                 {showMenu === true && (
                     <div className={styles.menu}> 
-                        <AiOutlineCloseCircle onClick={handleIconClick} />
+                        <AiOutlineCloseCircle className={styles.menu_icon} onClick={handleIconClick} />
                         <Menu />
                         <p>
                             <span>Menu</span>
