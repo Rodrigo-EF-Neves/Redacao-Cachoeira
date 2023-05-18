@@ -10,6 +10,7 @@ function Menu() {
                 <h6>Notícias</h6>
                 <Container>
                     <ul className={styles.menu_list}>
+                        <li>Todas as notícias</li>
                         <li>Política</li>
                         <li>Esportes</li>
                         <li>Segurança</li>

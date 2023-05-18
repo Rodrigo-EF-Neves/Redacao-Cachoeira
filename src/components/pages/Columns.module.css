@@ -17,6 +17,11 @@
     width: 15em;
     height: 15em;
     transform: scaleX(1.4);
+    border-radius: 5px;
+}
+
+.columnist img:hover {
+    cursor: pointer;
 }
 
 .columnist_info {
@@ -48,6 +53,13 @@
     font-size: 2.3em;
     color: #2B7D34;
     margin: 0.6em 0 0.6em 0;
+    transition: 0.5s ease;
+    width: 20%;
+}
+
+.columnist_info_text h5:hover {
+    color: #12551a;
+    cursor: pointer;
 }
 
 .hr_container {
@@ -60,5 +72,5 @@
     width: 62.5%;
     margin: 0;
     margin-bottom: 20px;
-    margin-left: 2em;
+    margin-left: 1.6em;
 }
