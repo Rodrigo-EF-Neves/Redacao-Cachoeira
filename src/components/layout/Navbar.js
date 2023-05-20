@@ -42,11 +42,12 @@ function Navbar(){
             </div>
             <Container>
                 <div className={styles.logo}>
-                    <span>
-                        <Link to="/">
-                            <img src={Logo} alt="Jacaré Fritz"/>
-                        </Link>
-                    </span>
+                    <p>
+                        <span>Home</span>
+                    </p>
+                    <Link to="/">
+                        <img src={Logo} alt="Jacaré Fritz"/>
+                    </Link>
                 </div>
             </Container>
         </nav>

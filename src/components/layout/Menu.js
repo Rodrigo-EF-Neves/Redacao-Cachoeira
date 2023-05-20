@@ -34,7 +34,16 @@ function Menu() {
             <div className={styles.category}>
                 <h6>Serviços</h6>
                 <ul className={styles.menu_list}>
-                    <li>Cadastro de conta/Login</li>
+                    <li>
+                        <Link to="/login" className={styles.menu_link}>
+                            <p>Login</p>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/signup" className={styles.menu_link}>
+                            <p>Cadastro de conta</p>
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className={styles.category}>
