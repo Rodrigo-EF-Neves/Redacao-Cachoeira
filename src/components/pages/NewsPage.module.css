@@ -1,0 +1,39 @@
+.newspage_container {
+    width: 100%;
+    height: 100%;
+}
+
+.news_header {
+    text-align: center;
+    margin: 3.5em 0 4em 0;
+}
+
+.news_header h2 {
+    font-size: 2em;
+}
+
+.news_header h4 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.author_name {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.author_name span,
+.author_name p {
+    color: #7a6f6f;
+}
+
+.author_name span {
+    font-weight: 700;
+}
+
+.news_body {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3.5em;
+    margin-top: 2.5em;
+}
