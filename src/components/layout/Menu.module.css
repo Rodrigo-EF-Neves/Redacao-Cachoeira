@@ -6,7 +6,7 @@
     padding: 0 10px;
     margin: 0 1em;
     position: absolute;
-    top: 18.9%;
+    top: 18.70%;
     z-index: 20;
     left: 24%;
     transform: scaleX(1.1);
@@ -32,7 +32,8 @@
 
 .menu_list li,
 .menu_link p {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    margin-top: 2px;
     font-size: 15px;
     list-style: none;
     text-decoration: none;

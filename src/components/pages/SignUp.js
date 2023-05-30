@@ -11,7 +11,6 @@ function SignUp() {
                             type="text"
                             name="full_name"
                             id="full_name"
-                            placeholder="Insira seu nome completo"
                          />
                     </div>
                     <div className={styles.field_container}>
@@ -20,7 +19,6 @@ function SignUp() {
                             type="text"
                             name="user"
                             id="user"
-                            placeholder="Insira seu nome de usuário"
                          />
                     </div>
                     <div className={styles.field_container}>
@@ -29,7 +27,6 @@ function SignUp() {
                             type="text"
                             name="email"
                             id="email"
-                            placeholder="Insira seu e-mail"
                          />
                     </div>
                     <div className={styles.field_container}>
@@ -47,16 +44,14 @@ function SignUp() {
                             type="password"
                             name="password"
                             id="password"
-                            placeholder="Crie uma senha"
                          />
                     </div>
                     <div className={styles.field_container}>
                         <label htmlFor="password">Confirme a senha</label>
                         <input
-                            type="repassword"
+                            type="password"
                             name="repassword"
                             id="repassword"
-                            placeholder="Digite sua senha"
                          />
                     </div>
                      <div className={styles.button_container}>
