@@ -13,11 +13,6 @@ function Menu() {
                             <p>Todas as notícias</p>
                         </Link>
                     </li>
-                    <li>
-                        <Link className={styles.menu_link} to="/newsform">
-                            <p>Publicar notícia</p>
-                        </Link>
-                    </li>
                 </ul>
             </div>
             <div className={styles.category}>
