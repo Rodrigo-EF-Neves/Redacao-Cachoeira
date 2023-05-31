@@ -2,7 +2,7 @@
     display: flex;
     background-color: #2B7D34;
     justify-content: space-between;
-    padding: 1em;
+    padding: .85em;
     min-height: fit-content;
 }
 
@@ -22,10 +22,11 @@
     cursor: pointer;
 }
 
-.menu p span {
+.menu p span,
+.logo p span {
     color: #FFF;
     justify-content: flex-end;
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin-left: 0.3em;
     font-weight: lighter;
 }
@@ -34,14 +35,24 @@
     justify-content: center;
     color: #FFF;
     font-weight: 400;
-    font-size: 1.9em;
-    flex-direction: column;
+    font-size: 2em;
 }
+
+.logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    user-select: none;
+}
+
+.logo p span {
+    margin-left: 0;
+} 
 
 .logo img{
     filter: invert(99%);
     height: 5em;
-    width: 5em;
+    width: 4.5em;
     justify-content: center;
     transition: .5s;
 }
