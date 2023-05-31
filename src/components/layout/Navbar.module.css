@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    background-color: #2B7D34;
+    justify-content: space-between;
+    padding: 1em;
+    min-height: fit-content;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    user-select: none;
+}
+
+.menu svg {
+    color: #FFF;
+    width: 2.3em;
+    height: 2.3em;
+}
+
+.menu svg:hover {
+    cursor: pointer;
+}
+
+.menu p span {
+    color: #FFF;
+    justify-content: flex-end;
+    font-size: 1.8em;
+    margin-left: 0.3em;
+    font-weight: lighter;
+}
+
+.main_title h1{
+    justify-content: center;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.9em;
+    flex-direction: column;
+}
+
+.logo img{
+    filter: invert(99%);
+    height: 5em;
+    width: 5em;
+    justify-content: center;
+    transition: .5s;
+}
+
+.logo img:hover {
+    cursor: pointer;
+}
