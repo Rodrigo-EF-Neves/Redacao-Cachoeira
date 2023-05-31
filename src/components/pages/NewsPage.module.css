@@ -9,17 +9,22 @@
 }
 
 .news_header h2 {
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 .news_header h4 {
     font-size: 1.3em;
     font-weight: 600;
+    margin: 2em 0 3em 0;
 }
 
 .author_name {
     margin: 0 auto;
     width: 95%;
+}
+
+.author_name p {
+    margin-bottom: 2px;
 }
 
 .author_name span,
@@ -32,7 +37,7 @@
 }
 
 .news_body {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 3.5em;
     margin-top: 2.5em;

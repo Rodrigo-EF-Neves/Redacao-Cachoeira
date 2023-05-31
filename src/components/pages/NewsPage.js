@@ -8,7 +8,7 @@ function NewsPage() {
                 <h4>Todos os jogos da semana e horários</h4>
             </div>
             <div className={styles.author_name}>
-                <p><span>Fulano da Silva</span> 30/05/2023</p>
+                <p>Por <span>Fulano da Silva</span> em 30/05/2023</p>
                 <hr className={styles.horizontal_line}/>
             </div>
             <div className={styles.news_body}>
