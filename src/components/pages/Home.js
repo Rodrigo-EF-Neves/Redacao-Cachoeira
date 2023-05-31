@@ -7,7 +7,7 @@ import { CarouselData } from '../layout/CarouselData'
 
 function Home(){
     return (
-        <div className={styles.home_container}>
+        <main className={styles.home_container}>
             <section>
                 <Carousel imagens={CarouselData}/>
             </section>
@@ -20,7 +20,7 @@ function Home(){
                     <h3>Confira os jogos da Libertadores da América</h3>
                 </div>
             </section>
-        </div>
+        </main>
     )
 }
 

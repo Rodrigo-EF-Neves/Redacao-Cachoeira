@@ -34,7 +34,7 @@
 .home_news_img img:hover {
     filter: grayscale(40%); 
     cursor: pointer;
-    transform: scaleX(1.1);
+    transform: scaleX(1.17);
 }
 
 .home_news_text {
