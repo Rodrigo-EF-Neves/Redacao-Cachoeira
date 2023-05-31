@@ -4,6 +4,7 @@ import Home from "./components/pages/Home";
 import Footer from "./components/layout/Footer";
 import Container from "./components/layout/Container";
 import Columns from "./components/pages/Columns";
+import News from "./components/pages/News";
 
 // import Home from "./components/pages/Home";
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/columns" element={<Columns/>} />
+          <Route path="/news" element={<News/>} />
         </Routes>
       </Container>
       <Footer />

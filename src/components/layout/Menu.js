@@ -1,22 +1,23 @@
 import styles from './Menu.module.css'
 
 import { Link } from 'react-router-dom';
-import Container from './Container';
 
 function Menu() {
     return (
         <div className={styles.menu_container}>
             <div className={styles.category}>
                 <h6>Notícias</h6>
-                <Container>
-                    <ul className={styles.menu_list}>
-                        <li>Todas as notícias</li>
-                        <li>Política</li>
-                        <li>Esportes</li>
-                        <li>Segurança</li>
-                        <li>Especiais</li>
-                    </ul>
-                </Container>
+                <ul className={styles.menu_list}>
+                    <li>
+                        <Link className={styles.menu_link} to="/news">
+                            <p>Todas as notícias</p>
+                        </Link>
+                    </li>
+                    <li>Política</li>
+                    <li>Esportes</li>
+                    <li>Segurança</li>
+                    <li>Especiais</li>
+                </ul>
             </div>
             <div className={styles.category}>
                 <h6>Conteúdo</h6>
