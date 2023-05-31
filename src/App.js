@@ -8,6 +8,8 @@ import Columns from "./components/pages/Columns";
 import News from "./components/pages/News";
 import Login from './components/pages/Login'
 import SignUp from "./components/pages/SignUp";
+import NewsPage from "./components/pages/NewsPage";
+import NewsForm from "./components/pages/NewsForm";
 
 // import Home from "./components/pages/Home";
 
@@ -22,6 +24,8 @@ function App() {
           <Route path="/news" element={<News/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<SignUp/>} />
+          <Route path="/newspage" element={<NewsPage/>} />
+          <Route path="/newsform" element={<NewsForm/>}/>
         </Routes>
       </Container>
       <Footer />
