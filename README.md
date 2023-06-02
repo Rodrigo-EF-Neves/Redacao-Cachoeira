@@ -11,7 +11,7 @@
 
 <h4>Conteúdos do projeto</h4>
 
-<p>O projeto possui algumas funcionalidades simples como uma navegação de páginas com um menu, um carrossel de imagens, uma página de login e uma página de funcionários. As duas últimas páginas não são funcionais.</p>
+<p>O projeto possui algumas funcionalidades simples como uma navegação de páginas com um menu, um carrossel de imagens, uma página de login e uma página de cadastro. As duas últimas páginas não são funcionais.</p>
 
 
 <h4>Autor</h4>
